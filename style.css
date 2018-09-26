@@ -1,0 +1,72 @@
+body{
+	background: #f857a6;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(left, #ff5858, #f857a6);
+background: -o-linear-gradient(left, #ff5858, #f857a6);
+background: linear-gradient(to right, #ff5858, #f857a6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: Roboto;
+}
+
+#div{
+
+	background: #5f2c82;  /* fallback for old browsers */
+background: -webkit-linear-gradient(left, #49a09d, #5f2c82);
+background: -o-linear-gradient(left, #49a09d, #5f2c82);
+background: linear-gradient(to right, #49a09d, #5f2c82);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+box-shadow: 2px 2px 5px black;
+padding-top: 10px;
+margin-top: 100px;
+}
+
+
+#div ul li{
+	list-style: none;
+	height: 35px;
+	line-height: 35px;
+	margin:0;
+}
+#div ul li:hover{
+	color: yellow;
+}
+#div ul{
+	padding: 0;
+	cursor: pointer;
+}
+#div{
+	margin: 0;
+	padding: 0;
+}
+div input{
+	width: 100%;
+	padding: 5px;
+	padding-left: 10px;
+}
+.line{
+	text-decoration: line-through;
+}
+
+
+li span {
+	background: #e74c3c;
+	height: 35px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 0px;
+	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+li:hover span {
+	width: 35px;
+	opacity: 1.0;
+}
+
+h1 span{
+	float: right;
+	margin-right: 10px;
+	cursor: pointer;
+}
+h1{
+	padding-top: 20px;
+}
